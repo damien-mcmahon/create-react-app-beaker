@@ -1,3 +1,6 @@
+# Create React App for Beaker
+This is intended to help those wanting to use React for building sites on Beaker.
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
