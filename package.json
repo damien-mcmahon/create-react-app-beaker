@@ -5,13 +5,16 @@
   "dependencies": {
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
-    "react-scripts": "1.0.17",
-    "serve": "^6.4.1"
+    "react-scripts": "1.0.17"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev": "nodemon -q -w 'src' --exec 'yarn build'"
   }
 }
