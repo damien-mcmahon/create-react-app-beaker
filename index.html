@@ -1,40 +1,69 @@
 <html>
   <head>
     <title>C.R.A.B</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet" />
+    <style>
+      body {
+        background: linear-gradient(bisque, sandybrown);
+        color: darksalmon;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 1.5;
+      }
+
+      .header {
+        font-family: 'Lobster Two', cursive;
+      }
+
+      .container {
+        max-width: 960px; 
+        background-color: rgba(255,255,255,.8);
+        padding: 20px;
+        overflow: auto;
+        border-radius: 20px;
+      }
+    </style>
   </head>
   <body>
-    <div class="crab__hero">
-    <h1>Create React App for Beaker</h1>
-    <p>If you want to create sites in Beaker and want to be using React then C.R.A.B has got you sorted.</p>
-    <p>Fork this site and follow the instructions below to get started:</p>
-  </div>
+    <div class="container">
+      <header class="crab__hero">
+        <h1 class="header">Create React App for Beaker</h1>
+        <p>If you want to create sites in Beaker and want to be using React then C.R.A.B has got you sorted.</p>
+        <p>Fork this site and follow the instructions below to get started:</p>
+      </header>
 
-  <div class="crab__instructions">
-    <ol>
-      <li>Fork this site</li>
-      <li>Give it a name etc</li>
-      <li>Go to the Site using a terminal</li>
-      <li>
-        Run the following commands
-        <dl>
-          <dt>yarn</dt>
-          <dd>This will install all the dependencies needed.</dd>
-          <dt>yarn build</dt>
-          <dd>This will run the yarn build command</dd>
-          <dt>yarn dev</dt>
-          <dd>This will watch the build folder and rebuild when changes are detected</dd>
-          <dt>Change Folder in the library</dt>
-          <dd>Set your build folder as the root</dd>
-          <dt>Do your thing!</dt>
-          <dd>Make changes to the code under 'src' and you'll see it change live in Beaker</dd>
-        </dl>
-      </li>
-    </ol>
+      <section class="crab__instructions">
+        <ol>
+          <li>Fork this site</li>
+          <li>Give it a name etc</li>
+          <li>Go to the Site using a terminal</li>
+          <li>
+            Run the following commands
+            <dl>
+              <dt>yarn</dt>
+              <dd>This will install all the dependencies needed.</dd>
+              <dt>yarn build</dt>
+              <dd>This will run the yarn build command</dd>
+              <dt>yarn dev</dt>
+              <dd>This will watch the build folder and rebuild when changes are detected</dd>
+              <dt>Change Folder in the library</dt>
+              <dd>Set your build folder as the root</dd>
+              <dt>Do your thing!</dt>
+              <dd>Make changes to the code under 'src' and you'll see it change live in Beaker</dd>
+            </dl>
+          </li>
+        </ol>
+      </section>
 
-    <div class="crab__help">
-      <h1>Want to make this better?</h1>
-      <p>This is a simple starter for CRA and Beaker. I want to make it more automated but for now there's those steps up there. If you want to help then feel free to fork the repo on Github and make things better!</p>
+        <div class="crab__help">
+          <h1 class="header">Want to make this better?</h1>
+          <p>This is a simple starter for CRA and Beaker. I want to make it more automated but for now there's those steps up there. If you want to help then feel free to fork the repo on Github and make things better!</p>
+
+          <a href="http://github.com/damien-mcmahon/create-react-app-beaker">Github</a>
+        </div>
+      </div>
     </div>
-  </div>
   </body>
 </html>
